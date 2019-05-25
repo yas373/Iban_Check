@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		308C8FF222994476002797BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 308C8FF122994476002797BB /* AppDelegate.m */; };
+		308C8FF522994476002797BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 308C8FF422994476002797BB /* ViewController.m */; };
+		308C8FF822994476002797BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308C8FF622994476002797BB /* Main.storyboard */; };
+		308C8FFA2299447B002797BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 308C8FF92299447B002797BB /* Assets.xcassets */; };
+		308C8FFD2299447B002797BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308C8FFB2299447B002797BB /* LaunchScreen.storyboard */; };
+		308C90002299447B002797BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 308C8FFF2299447B002797BB /* main.m */; };
+		308C900A2299447B002797BB /* ibanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 308C90092299447B002797BB /* ibanTests.m */; };
+		308C90152299447B002797BB /* ibanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 308C90142299447B002797BB /* ibanUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		308C90062299447B002797BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 308C8FE522994476002797BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 308C8FEC22994476002797BB;
+			remoteInfo = iban;
+		};
+		308C90112299447B002797BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 308C8FE522994476002797BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 308C8FEC22994476002797BB;
+			remoteInfo = iban;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		308C8FED22994476002797BB /* iban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iban.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		308C8FF022994476002797BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		308C8FF122994476002797BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		308C8FF322994476002797BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		308C8FF422994476002797BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		308C8FF722994476002797BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		308C8FF92299447B002797BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		308C8FFC2299447B002797BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		308C8FFE2299447B002797BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		308C8FFF2299447B002797BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		308C90052299447B002797BB /* ibanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ibanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		308C90092299447B002797BB /* ibanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ibanTests.m; sourceTree = "<group>"; };
+		308C900B2299447B002797BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		308C90102299447B002797BB /* ibanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ibanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		308C90142299447B002797BB /* ibanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ibanUITests.m; sourceTree = "<group>"; };
+		308C90162299447B002797BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		308C8FEA22994476002797BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		308C90022299447B002797BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		308C900D2299447B002797BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		308C8FE422994476002797BB = {
+			isa = PBXGroup;
+			children = (
+				308C8FEF22994476002797BB /* iban */,
+				308C90082299447B002797BB /* ibanTests */,
+				308C90132299447B002797BB /* ibanUITests */,
+				308C8FEE22994476002797BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		308C8FEE22994476002797BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				308C8FED22994476002797BB /* iban.app */,
+				308C90052299447B002797BB /* ibanTests.xctest */,
+				308C90102299447B002797BB /* ibanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		308C8FEF22994476002797BB /* iban */ = {
+			isa = PBXGroup;
+			children = (
+				308C8FF022994476002797BB /* AppDelegate.h */,
+				308C8FF122994476002797BB /* AppDelegate.m */,
+				308C8FF322994476002797BB /* ViewController.h */,
+				308C8FF422994476002797BB /* ViewController.m */,
+				308C8FF622994476002797BB /* Main.storyboard */,
+				308C8FF92299447B002797BB /* Assets.xcassets */,
+				308C8FFB2299447B002797BB /* LaunchScreen.storyboard */,
+				308C8FFE2299447B002797BB /* Info.plist */,
+				308C8FFF2299447B002797BB /* main.m */,
+			);
+			path = iban;
+			sourceTree = "<group>";
+		};
+		308C90082299447B002797BB /* ibanTests */ = {
+			isa = PBXGroup;
+			children = (
+				308C90092299447B002797BB /* ibanTests.m */,
+				308C900B2299447B002797BB /* Info.plist */,
+			);
+			path = ibanTests;
+			sourceTree = "<group>";
+		};
+		308C90132299447B002797BB /* ibanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				308C90142299447B002797BB /* ibanUITests.m */,
+				308C90162299447B002797BB /* Info.plist */,
+			);
+			path = ibanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		308C8FEC22994476002797BB /* iban */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 308C90192299447B002797BB /* Build configuration list for PBXNativeTarget "iban" */;
+			buildPhases = (
+				308C8FE922994476002797BB /* Sources */,
+				308C8FEA22994476002797BB /* Frameworks */,
+				308C8FEB22994476002797BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iban;
+			productName = iban;
+			productReference = 308C8FED22994476002797BB /* iban.app */;
+			productType = "com.apple.product-type.application";
+		};
+		308C90042299447B002797BB /* ibanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 308C901C2299447B002797BB /* Build configuration list for PBXNativeTarget "ibanTests" */;
+			buildPhases = (
+				308C90012299447B002797BB /* Sources */,
+				308C90022299447B002797BB /* Frameworks */,
+				308C90032299447B002797BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				308C90072299447B002797BB /* PBXTargetDependency */,
+			);
+			name = ibanTests;
+			productName = ibanTests;
+			productReference = 308C90052299447B002797BB /* ibanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		308C900F2299447B002797BB /* ibanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 308C901F2299447B002797BB /* Build configuration list for PBXNativeTarget "ibanUITests" */;
+			buildPhases = (
+				308C900C2299447B002797BB /* Sources */,
+				308C900D2299447B002797BB /* Frameworks */,
+				308C900E2299447B002797BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				308C90122299447B002797BB /* PBXTargetDependency */,
+			);
+			name = ibanUITests;
+			productName = ibanUITests;
+			productReference = 308C90102299447B002797BB /* ibanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		308C8FE522994476002797BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Yasin Turpcu";
+				TargetAttributes = {
+					308C8FEC22994476002797BB = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					308C90042299447B002797BB = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 308C8FEC22994476002797BB;
+					};
+					308C900F2299447B002797BB = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 308C8FEC22994476002797BB;
+					};
+				};
+			};
+			buildConfigurationList = 308C8FE822994476002797BB /* Build configuration list for PBXProject "iban" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 308C8FE422994476002797BB;
+			productRefGroup = 308C8FEE22994476002797BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				308C8FEC22994476002797BB /* iban */,
+				308C90042299447B002797BB /* ibanTests */,
+				308C900F2299447B002797BB /* ibanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		308C8FEB22994476002797BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308C8FFD2299447B002797BB /* LaunchScreen.storyboard in Resources */,
+				308C8FFA2299447B002797BB /* Assets.xcassets in Resources */,
+				308C8FF822994476002797BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		308C90032299447B002797BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		308C900E2299447B002797BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		308C8FE922994476002797BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308C8FF522994476002797BB /* ViewController.m in Sources */,
+				308C90002299447B002797BB /* main.m in Sources */,
+				308C8FF222994476002797BB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		308C90012299447B002797BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308C900A2299447B002797BB /* ibanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		308C900C2299447B002797BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308C90152299447B002797BB /* ibanUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		308C90072299447B002797BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 308C8FEC22994476002797BB /* iban */;
+			targetProxy = 308C90062299447B002797BB /* PBXContainerItemProxy */;
+		};
+		308C90122299447B002797BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 308C8FEC22994476002797BB /* iban */;
+			targetProxy = 308C90112299447B002797BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		308C8FF622994476002797BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				308C8FF722994476002797BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		308C8FFB2299447B002797BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				308C8FFC2299447B002797BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		308C90172299447B002797BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		308C90182299447B002797BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		308C901A2299447B002797BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iban/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yasinturpcu.iban;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		308C901B2299447B002797BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iban/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yasinturpcu.iban;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		308C901D2299447B002797BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ibanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yasinturpcu.ibanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iban.app/iban";
+			};
+			name = Debug;
+		};
+		308C901E2299447B002797BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ibanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yasinturpcu.ibanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iban.app/iban";
+			};
+			name = Release;
+		};
+		308C90202299447B002797BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ibanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yasinturpcu.ibanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iban;
+			};
+			name = Debug;
+		};
+		308C90212299447B002797BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ibanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yasinturpcu.ibanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iban;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		308C8FE822994476002797BB /* Build configuration list for PBXProject "iban" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308C90172299447B002797BB /* Debug */,
+				308C90182299447B002797BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		308C90192299447B002797BB /* Build configuration list for PBXNativeTarget "iban" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308C901A2299447B002797BB /* Debug */,
+				308C901B2299447B002797BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		308C901C2299447B002797BB /* Build configuration list for PBXNativeTarget "ibanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308C901D2299447B002797BB /* Debug */,
+				308C901E2299447B002797BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		308C901F2299447B002797BB /* Build configuration list for PBXNativeTarget "ibanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308C90202299447B002797BB /* Debug */,
+				308C90212299447B002797BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 308C8FE522994476002797BB /* Project object */;
+}
